@@ -10,25 +10,29 @@ Satellite position calculation is done using David Taylor’s DJTSatLib.dll
 
 Regarding antenna tracking, in  the Rot2Prog protocol case ,  it writes commands directly to its serial port , which allows for faster position update. This mode is what I use on X band , allowing position update every 0.5s.
 
-HamLib tracking is somewhat slower, as by default position update interval is set to 3s (can be further reduced though). This may already be more than enough for many applications though.
+HamLib tracking is somewhat slower, as by default position update interval is set to 3s (can be further reduced though). 
+This may already be more than enough for many applications though.
+
+![image](https://user-images.githubusercontent.com/3455238/178921593-386c7918-85a1-42e5-98ef-9ca265f7c88b.png)
+
 
 Some other features have been added to aid Weather/Earth observation Satellite RX  and enable unattended pass-list tracking / recording/decoding:
 
--One can automatically launch HDSDR with the proper settings per satellite.
+- One can automatically launch HDSDR with the proper settings per satellite.
 
--It programs the 54 MHz -13 GHz Kuhne MKU Local Oscillator.
+- It programs the 54 MHz -13 GHz Kuhne MKU Local Oscillator.
 
--Antenna pointing offsets can be changed on the fly.
+- Antenna pointing offsets can be changed on the fly.
 
--There is a favorite satellite list with Satellite TX frequency,  Recording sampling rate etc
+- There is a favorite satellite list with Satellite TX frequency,  Recording sampling rate etc
 
--Latest version can also track the whole pass-list enabling automatic recording with HDSDR . 
+- Latest version can also track the whole pass-list enabling automatic recording with HDSDR . 
 
 - Automatically launches the appropriate SatDump demodulator/decoder and stores resulting files in a dedicated folder.
 
 - Can reset Lime's driver or power-cycle it using the RTS signal of a COM port. This is useful when Lime occasionally hangs . With this feature it will be restarted just before the satellite becomes visible.
 
--Switches antenna polarization using the DTR signal of a COM port. This signal can go to a coaxial switch and select RHCP/LHCP.
+- Switches antenna polarization using the DTR signal of a COM port. This signal can go to a coaxial switch and select RHCP/LHCP.
 
 I have included the Airspy ExtIO dll and 2 ExtIO dlls for the LimeSDR.The official one (ExtIO_LimeSDR_1.07.dll) supports sampling rates up to 30 MSPS.
 Jean-Luc Milette  kindly granted permission to include his custom dll (ExtIO_LimeSDR_WxSats_to_share.dll )  which supports rates up to 60 MSPS.  
