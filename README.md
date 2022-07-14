@@ -4,7 +4,6 @@ https://sv1cal.com/satellite-fun-software/
 
 Satellite FUN is a C# application which predicts satellite passes , tracks satellites, automatically starts RF recording (HDSDR) and post-processing (SatDump). The goal is mainly unattended Weather/ Earth observation satellite reception on L and X band . It supports the SPID BIG RAS  including the HR version through the  Rot2Prog protocol and other rotators through HamLib.
 
-
 Satellite FUN is just a hobby project written to suit my own needs for satellite tracking , especially on X band , where accurate antenna positioning is very important. If you find it useful, please send me a message and report bugs etc ! THANKS !!!
 
 Satellite position calculation is done using David Taylor’s DJTSatLib.dll
@@ -31,12 +30,6 @@ Some other features have been added to aid Weather/Earth observation Satellite R
 
 -Switches antenna polarization using the DTR signal of a COM port. This signal can go to a coaxial switch and select RHCP/LHCP.
 
-You can download it from here . 
-
-Locate the green "Code" button and click and "Download ZIP" file:
-
-Unzip the contents and you will get 2 folders , one containing Satellite FUN and another one with HDSDR ExtIO dlls.
-
-I have added software limits to Satellite FUN and these should be adjusted  first but as an extra precaution it is best to set some limits for AZ and EL on your controller as well to prevent overturning beyond physical limits. My antenna is placed on a balcony and from here I can only track eastern passes with AZ>0 and AZ<200. In addition , EL movement must be limited to 0 up to 90 degrees otherwise the dish will hit the wall :-). For these reasons, I have set the limits on my Rot2Prog controller accordingly. These limits  on the controller side rescued my dish a couple of times during software debugging :-)
-
-I have included the Airspy ExtIO dll and 2 ExtIO dlls for the LimeSDR.The official one (ExtIO_LimeSDR_1.07.dll) supports sampling rates up to 30 MSPS.Jean-Luc Milette  kindly granted permission to include his custom dll (ExtIO_LimeSDR_WxSats_to_share.dll )  which supports rates up to 60 MSPS.  Many thanks Jean-Luc for providing these! These dlls should be pasted to the HDSDR folder .
+I have included the Airspy ExtIO dll and 2 ExtIO dlls for the LimeSDR.The official one (ExtIO_LimeSDR_1.07.dll) supports sampling rates up to 30 MSPS.
+Jean-Luc Milette  kindly granted permission to include his custom dll (ExtIO_LimeSDR_WxSats_to_share.dll )  which supports rates up to 60 MSPS.  
+Many thanks Jean-Luc for providing these! These dlls should be pasted to the HDSDR folder .
