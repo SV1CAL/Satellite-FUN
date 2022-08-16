@@ -1,5 +1,5 @@
-14/7/2022 6:15:03 πμ: Populating passlist for satellites in favorite list with PASSLIST flag 1
-14/7/2022 6:15:00 πμ: Disk Free Space available for SatDump Results : 44 GB
-14/7/2022 6:15:00 πμ: Disk Free Space available for HDSDR Recordings : 44 GB
-14/7/2022 6:15:00 πμ: Reading config.txt file
+16/8/2022 2:06:51 μμ: Populating passlist for satellites in favorite list with PASSLIST flag 1
+16/8/2022 2:06:48 μμ: Disk Free Space available for SatDump Results : 41 GB
+16/8/2022 2:06:48 μμ: Disk Free Space available for HDSDR Recordings : 41 GB
+16/8/2022 2:06:48 μμ: Reading config.txt file
 

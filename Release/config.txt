@@ -10,8 +10,8 @@ ELoffset 0
 RefreshPosition_ms 100
 SendPosition_ms_Hamlib 1500
 SendPosition_ms_DirectCOM 250
-MinTrackingStepDegrees 0.5
-Controller_prog Rot2Prog_0.5_Deg
+MinTrackingStepDegrees 0.1
+Controller_prog Rot2Prog_0.1_Deg
 Comport COM6
 ComKuhneLO COM3
 HDSDR_PATH %PROGRAMFILES(X86)%\HDSDR
