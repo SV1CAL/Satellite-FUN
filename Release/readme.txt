@@ -7,7 +7,10 @@ Once the dll is installed, start the program, hit yes to the "Update keps" pop-u
 One can also edit the config.txt file directly.
 For the new settings to take effect , it is best to save the config.txt file and then restart the program.
 
-For HAMLIB use , you need to edit rotator.bat
+HAMLIB
+#################################################################
+You first need to edit your HAMLIB_BIN_PATH  in config.txt .
+Then you also need to edit the rotator.bat file.
 For example , for my old Rot2Prog BIG RAS controller , I just have 2 lines.
 rotctld -m 901 -r COM4 -s 600
 PAUSE
@@ -15,13 +18,12 @@ PAUSE
 For SPID BIG RAS HR (MD-02), just these 2 lines are needed after editing your com port and connection speed:
 rotctld -m 903 -r COM4 -s 19200
 PAUSE
-
+#####################################################################
 The program does not automatically connect to your rotator. 
 Connect to your rotator either directly using SPID_DIRECT or using HamLib (launching rotator.bat)
 Then try to read back its position to see that it works.
 You can use the GO TO AZ/EL buttons to check it goes where instructed.
 To track a satellite , once it is visible , hit the auto-tracking button.
-
 
 
 ####################################################################
