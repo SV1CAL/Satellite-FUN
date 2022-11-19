@@ -39,12 +39,12 @@ AutoLOprogramming 1
 MIN_REC_ELEVATION 1
 PlaySoundAOS 1
 SATDUMP_PATH C:\SatDump
-RECORDINGS_PATH C:\Users\mm\Documents\HDSDR
+RECORDINGS_PATH C:\Users\mike\Documents\HDSDR
 AllowLimeReset 0
 FIXED_LO_HZ 6800
 LO_TYPE KUHNE_MKU
 LimeDcSwith_Polarization_Comport COM5
 FillPassListAtStartup 1
-AllowLimePowerCycling 1
-SATDUMP_RESULTS_PATH C:\Users\mm\Documents\HDSDR
+AllowLimePowerCycling 0
+SATDUMP_RESULTS_PATH C:\Users\mike\Documents\HDSDR
 AutoSatDump 1
