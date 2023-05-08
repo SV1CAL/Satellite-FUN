@@ -2,19 +2,19 @@ Comma separated settings per satellite are below
 Each satellites needs 15 settings.
 This file is normally created by hitting the "Add Selected Satellite to Favorites" button.
 #########################################################################################
-Sat:Satellite Name
-Fold: Folder under /Keps where TLEs are stored for Sat,
+Sat:Satellite Name as in keplerian elements file
+Fold: Folder under /Keps where TLEs are stored for Sat 
 FreqTX: Satellite Downlink in MHz
-MSPS: Recording Rate, must be supported by dll
-ExtIO :[AIRSPY_HDSDR_REC|LIME_HDSDR_REC|LIME_JL_HDSDR_REC]
-HDSDR_Freq: HSDR frequency,wav file will be saved with this in its name. Then this info is used to select correct decoder ! 
-Polarization: [LHCP|RHCP]-Not implemented yet.
+MSPS: Recording Rate, must be supported by HDSDR/SatDump
+SDR/HDSDR/SatDump/LIVE or REC combination :[AIRSPY_HDSDR_REC|LIME_HDSDR_REC|LIME_JL_HDSDR_REC|AIRSPY_SatDump_LIVE|LIME_SatDump_LIVE]
+IF_Freq: HSDR/SatDump tuning frequency,wav file will be saved with this in its name. Then this info is used to select correct decoder ! 
+Polarization: [LHCP|RHCP] Does not matter if not switch is used
 LOType:[KUHNE_MKU|FIXED|NO_CONVERTER] . If KUHNE_MKU selected , LO will be programmed over serial port.
 FIXEDLO [e.g Converter LO frequency 1200.1 in MHz, only used for IF/HDSDR tuning frequency calculation.
 LOSide:[High_Side|Low_Side] . This affects Doppler sign / KUHNE LO tuning / HDSDR tuning in FIXED mode .
 Decoder:SatDump pipeline,e.g noaa_hrpt
-DC:[0:1] Correct DC offset checkbox in SatDump.
-IQ:[0:1] Swap IQ checbox in SatDump.
+DC:[0:1] Correct DC offset check box in SatDump.
+IQ:[0:1] Swap IQ check box in SatDump.
 Dop:[0:1] Correct Doppler in KUHNE LO or HDSDR tuning.
 PASSLIST: [0:1] 0 means satellite will not appear in PassList.
 #####################################################################################
@@ -38,7 +38,7 @@ EOS-6 (OCEANSAT-3),active,1700.0,6,AIRSPY_HDSDR_REC,1218.0,RHCP,KUHNE_MKU,6800,H
 OCEANSAT-2,active,1698.0,6,AIRSPY_HDSDR_REC,1698.0,RHCP,NO_CONVERTER,6800,High_Side,noaa_hrpt,0,0,0,0
 AURA,active,1698.0,6,AIRSPY_HDSDR_REC,1698.0,RHCP,NO_CONVERTER,6800,High_Side,noaa_hrpt,0,0,0,0
 CFOSAT,active,1698.0,6,AIRSPY_HDSDR_REC,1698.0,RHCP,NO_CONVERTER,6800,High_Side,noaa_hrpt,0,0,0,0
-AEOLUS,active,1698.0,6,AIRSPY_SATDUMP_REC,1698.0,RHCP,NO_CONVERTER,6800,High_Side,noaa_hrpt,0,0,0,0
+AEOLUS,active,1698.0,6,AIRSPY_SatDump_REC,1698.0,RHCP,NO_CONVERTER,6800,High_Side,noaa_hrpt,0,0,0,0
 FENGYUN 3B,weather,1698.0,6,AIRSPY_HDSDR_REC,1698.0,RHCP,NO_CONVERTER,6800,High_Side,noaa_hrpt,0,0,0,0
 ########################################################################################
 THOSE BELOW ARE NOT POPULATED IN THE PASSLIST (see last parameter it is 0 !) 
