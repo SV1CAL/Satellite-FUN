@@ -6,7 +6,7 @@ Sat:Satellite Name as in keplerian elements file
 Fold: Folder under /Keps where TLEs are stored for Sat 
 FreqTX: Satellite Downlink in MHz
 MSPS: Recording Rate, must be supported by HDSDR/SATDUMP
-SDR/HDSDR/SATDUMP/LIVE or REC combination :[AIRSPY_HDSDR_REC|LIME_HDSDR_REC|LIME_JL_HDSDR_REC|AIRSPY_SATDUMP_LIVE|LIME_SATDUMP_LIVE]
+SDR/HDSDR/SATDUMP/LIVE or REC combination :[AIRSPY_HDSDR_REC|LIME_HDSDR_REC|LIME_JL_HDSDR_REC|AIRSPY_SATDUMP_LIVE|LIME_SATDUMP_LIVE|AIRSPY_SATDUMP_REC|LIME_SATDUMP_REC]
 IF_Freq: HSDR/SATDUMP tuning frequency,wav file will be saved with this in its name. Then this info is used to select correct decoder ! 
 Polarization: [LHCP|RHCP] Does not matter if not switch is used
 LOType:[KUHNE_MKU|FIXED|NO_CONVERTER] . If KUHNE_MKU selected , LO will be programmed over serial port.
