@@ -1,4 +1,5 @@
 # Satellite-FUN
+If you use this sofware , please check regularly back as I am constanly working on any bugs found/reported.
 
 https://sv1cal.com/satellite-fun-software/
 
