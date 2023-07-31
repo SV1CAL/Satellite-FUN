@@ -3,7 +3,7 @@ Installation is done as an administrator.
 Copy the unzipped folder it to your C drive.
 You first need to install and register the DJTSatlib.dll. 
 Follow the instructions further down below.
-Once the dll is installed, start the program, edit your lat/long etc. 
+Once the dll is installed, start the program, hit yes to the "Update keps" pop-up message, edit your lat/long etc. 
 One can also edit the config.txt file directly.
 For the new settings to take effect , it is best to save the config.txt file and then restart the program.
 
