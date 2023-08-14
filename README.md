@@ -7,9 +7,10 @@ VERSION 1v31:
 
 INSTALLATION:
 
-- Please follow the link below for installation instructions and a basic user guide:
+- Unzip the downloaded folder to a location with read/write privileges. Register the dll (see below) and then run the exe file.
+- In the link below you can find more installation instructions and a basic user guide. Please read it:
 
-https://sv1cal.com/satellite-fun-software/
+	https://sv1cal.com/satellite-fun-software/
 
 NOTES:
 
