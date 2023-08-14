@@ -1,5 +1,4 @@
 # Satellite-FUN
-If you use this software , please check regularly back as I am constantly working on any bugs found/reported.
 
 VERSION 1v31:
 
@@ -16,6 +15,7 @@ NOTES:
 
 - The DJTSatLib.dll needs to be registered first according to the instructions published above.
 - The dot is used as the decimal point symbol.
+- If you use this software, please check regularly back as I am constantly working on any bugs found/reported.
 
 Satellite FUN is a C# application which predicts satellite passes , tracks satellites, automatically starts RF recording (HDSDR/SatDump) and post-processing (SatDump). The goal is mainly unattended Weather/ Earth observation satellite reception on L and X band . It supports the SPID BIG RAS  including the HR version through the  Rot2Prog protocol and other rotators through HamLib.
 
