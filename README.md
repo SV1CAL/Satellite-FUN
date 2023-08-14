@@ -13,9 +13,50 @@ https://sv1cal.com/satellite-fun-software/
 
 NOTES:
 
-- The DJTSatLib.dll needs to be registered first according to the instructions published above.
+- The DJTSatLib.dll needs to be registered first (see below).
 - The dot is used as the decimal point symbol.
 - If you use this software, please check regularly back as I am constantly working on any bugs found/reported.
+
+
+DLL installation:
+
+Windows 7/8/10/11 users must be administrators to successfully register the dll.
+
+- On 64 bit systems:
+
+	First copy the DJTSatlib.dll to your Windows\SysWOW64 folder and 
+	register the dll being in that folder. This can be done as follows :
+	Open a cmd window as Administrator --> Start/All Programs/Accessories .
+	Then Right click and Select “Run as Administrator”.
+	Then change folder to Windows/SysWow64 by typing :
+
+	cd C:\Windows\SysWOW64
+
+	Now type:
+
+	 regsvr32 DJTSatlib.dll
+
+
+- On 32 bit systems:
+
+	Enter the unzipped folder and double-click on “install djtsatlib.bat”. 
+	This is only needed once, when the program is installed for the first time.
+	If this does not work try the following:
+	Copy/paste the dll into Windows/System32 folder and register the dll in there.
+	This can be done by first opening a cmd window   (Start/All Programs/Accessories). 
+	On W7 cmd must be opened as admin so Right click and Select “Run as Administrator”
+	In the cmd window that has just opened, change folder to Windows/System32 
+	by typing :
+
+	cd C:\Windows\System32
+
+	Now type:
+
+	 regsvr32 DJTSatlib.dll
+	 
+
+
+MORE INFO:
 
 Satellite FUN is a C# application which predicts satellite passes , tracks satellites, automatically starts RF recording (HDSDR/SatDump) and post-processing (SatDump). The goal is mainly unattended Weather/ Earth observation satellite reception on L and X band . It supports the SPID BIG RAS  including the HR version through the  Rot2Prog protocol and other rotators through HamLib.
 
