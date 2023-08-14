@@ -87,7 +87,7 @@ Some other features have been added to aid Weather/Earth observation Satellite R
 
 - There is a favorite satellite list with Satellite TX frequency,  Recording sampling rate etc
 
-- Tracks the whole pass-list enabling automatic recording with HDSDR . 
+- Tracks the whole pass-list enabling automatic recording with HDSDR or SatDump . 
 
 - Automatically launches the appropriate SatDump demodulator/decoder and stores resulting files in a dedicated folder.
 
