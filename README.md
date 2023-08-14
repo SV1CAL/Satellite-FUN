@@ -65,7 +65,7 @@ The main goal is unattended Weather/ Earth observation satellite reception on L,
 It supports the SPID Rot2Prog protocol including the HR version , HamLib and e-Callisto (X/Y).
 
 
-![image](https://user-images.githubusercontent.com/3455238/178921593-386c7918-85a1-42e5-98ef-9ca265f7c88b.png)
+![image](https://github.com/SV1CAL/Satellite-FUN/assets/3455238/75381b61-a813-4372-8a1b-3a755b82b32a)
 
 
 Some features :
