@@ -1,9 +1,15 @@
 # Satellite-FUN
-If you use this sofware , please check regularly back as I am constanly working on any bugs found/reported.
+If you use this software , please check regularly back as I am constantly working on any bugs found/reported.
+
+Please follow the link below for installation instructions and a basic user guide:
 
 https://sv1cal.com/satellite-fun-software/
 
-Satellite FUN is a C# application which predicts satellite passes , tracks satellites, automatically starts RF recording (HDSDR) and post-processing (SatDump). The goal is mainly unattended Weather/ Earth observation satellite reception on L and X band . It supports the SPID BIG RAS  including the HR version through the  Rot2Prog protocol and other rotators through HamLib.
+Notes:
+1) The DJTSatLib.dll need to be registered first according to the instructions published above.
+2) The dot is used as the decimal point symbol. 
+
+Satellite FUN is a C# application which predicts satellite passes , tracks satellites, automatically starts RF recording (HDSDR/SatDump) and post-processing (SatDump). The goal is mainly unattended Weather/ Earth observation satellite reception on L and X band . It supports the SPID BIG RAS  including the HR version through the  Rot2Prog protocol and other rotators through HamLib.
 
 Satellite FUN is just a hobby project written to suit my own needs for satellite tracking , especially on X band , where accurate antenna positioning is very important. If you find it useful, please send me a message and report bugs etc ! THANKS !!!
 
@@ -19,7 +25,7 @@ This may already be more than enough for many applications though.
 
 Some other features have been added to aid Weather/Earth observation Satellite RX  and enable unattended pass-list tracking / recording/decoding:
 
-- One can automatically launch HDSDR with the proper settings per satellite.
+- One can automatically launch HDSDR/SatDump with the proper settings per satellite.
 
 - It programs the 54 MHz -13 GHz Kuhne MKU Local Oscillator.
 
@@ -27,7 +33,7 @@ Some other features have been added to aid Weather/Earth observation Satellite R
 
 - There is a favorite satellite list with Satellite TX frequency,  Recording sampling rate etc
 
-- Latest version can also track the whole pass-list enabling automatic recording with HDSDR . 
+- Tracks the whole pass-list enabling automatic recording with HDSDR . 
 
 - Automatically launches the appropriate SatDump demodulator/decoder and stores resulting files in a dedicated folder.
 
