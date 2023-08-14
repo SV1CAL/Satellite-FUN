@@ -61,7 +61,7 @@ MORE INFO:
 
 Satellite FUN is a C# application which predicts satellite passes , tracks satellites, automatically starts RF recording (HDSDR/SatDump) and post-processing (SatDump). The goal is mainly unattended Weather/ Earth observation satellite reception on L and X band . It supports the SPID BIG RAS  including the HR version through the  Rot2Prog protocol and other rotators through HamLib.
 
-Satellite FUN is just a hobby project written to suit my own needs for satellite tracking , especially on X band , where accurate antenna positioning is very important. If you find it useful, please send me a message and report bugs etc ! THANKS !!!
+Satellite FUN is just a hobby project written to suit my own needs for satellite tracking , especially on X band , where accurate antenna positioning is very important. 
 
 Satellite position calculation is done using David Taylor’s DJTSatLib.dll
 
@@ -69,6 +69,8 @@ Regarding antenna tracking, in the Rot2Prog protocol case, it writes commands di
 
 HamLib tracking is somewhat slower, as by default position update interval is set to 3s (can be further reduced though). 
 This may already be more than enough for many applications though.
+
+Besides Rot2Prog and Hamlib, it also supports the e-Callisto controller in X/Y configuration.
 
 ![image](https://user-images.githubusercontent.com/3455238/178921593-386c7918-85a1-42e5-98ef-9ca265f7c88b.png)
 
