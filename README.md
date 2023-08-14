@@ -2,15 +2,18 @@
 If you use this software , please check regularly back as I am constantly working on any bugs found/reported.
 
 VERSION 1v31:
+
 Added DSN / Horizons tracking
 Fixed a bug that was preventing favorites from getting printed in the pass list
 
 INSTALLATION:
+
 Please follow the link below for installation instructions and a basic user guide:
 
 https://sv1cal.com/satellite-fun-software/
 
 NOTES:
+
 1) The DJTSatLib.dll needs to be registered first according to the instructions published above.
 2) The dot is used as the decimal point symbol.
 
