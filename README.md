@@ -1,5 +1,9 @@
 # Satellite-FUN
 
+VERSION 1v33:
+
+- Corrected IF frequency calculation in the FIXED LO case.
+
 VERSION 1v32:
 
 - Bug fix related to TRACK SAT button
