@@ -1,5 +1,9 @@
 # Satellite-FUN
 
+VERSION 1v32:
+
+- Bug fix related to TRACK SAT button
+
 VERSION 1v31:
 
 - Added DSN / Horizons tracking
