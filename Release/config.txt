@@ -52,3 +52,4 @@ UpdateTLEs 0
 SATDUMP_PATH_NEW C:\SatDump_alpha
 LimeGain 48
 AirspyGain 21
+ParkOnExit 1
