@@ -1,4 +1,7 @@
 # Satellite-FUN
+VERSION 1v34:
+
+- Added Park on Exit option
 
 VERSION 1v33:
 
