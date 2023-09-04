@@ -53,3 +53,5 @@ SATDUMP_PATH_NEW C:\SatDump_alpha
 LimeGain 48
 AirspyGain 21
 ParkOnExit 1
+AIRSPY_SERIAL_NUMBER default
+LIME_SERIAL_NUMBER default

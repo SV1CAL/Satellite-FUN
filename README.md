@@ -1,4 +1,10 @@
 # Satellite-FUN
+VERSION 1v35:
+-Now HDSDR/Satdump/Results/Recording folder names can have spaces
+-Fixed bugs in the FIXED LO case
+-Added option to select Airspy / LimeSDR based on serial number. This is for SatDump only, not HDSDR . Added files airspy_serial_numbers.txt , lime_serial_numbers.txt
+-Simplifying GUI layout - work in progress
+
 VERSION 1v34:
 
 - Added Park on Exit option
