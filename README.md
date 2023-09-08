@@ -1,4 +1,11 @@
 # Satellite-FUN
+VERSION 1v36:
+- Enabled RHCP/LHCP polarization switch
+- Added decimation option
+- Added button with various links
+- Layout changes
+- Bug fixes
+
 VERSION 1v35:
 - Now HDSDR/Satdump/Results/Recording folder names can have spaces
 - Fixed bugs in the FIXED LO case

@@ -24,9 +24,9 @@ NumberOfDays 2
 EastChecked 1
 WestChecked 1
 SDR_IF 1203.0
-CCW_degrees 0
-CW_degrees 0
-AllowOverTravel 0
+CCW_degrees 180
+CW_degrees 180
+AllowOverTravel 1
 FormAlwaysOnTop 0
 ApplyDoppler 1
 LO_HIGH_SIDE 1
@@ -55,3 +55,4 @@ AirspyGain 21
 ParkOnExit 1
 AIRSPY_SERIAL_NUMBER default
 LIME_SERIAL_NUMBER default
+AutoSwitchPolarization 0
