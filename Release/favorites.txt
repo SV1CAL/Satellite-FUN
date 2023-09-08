@@ -19,7 +19,7 @@ Decimation : 1 up 100
 PASSLIST: [0:1] 0 means satellite will not appear in PassList.
 #####################################################################################
 THOSE BELOW ARE POPULATED IN THE PASSLIST (see last parameter it is 1 !) 
-NOAA 20,weather,7812.0,25,LIME_HDSDR_REC,1202.0,RHCP,FIXED,6801,High_Side,npp_hrd,1,0,1,1
+NOAA 20,weather,7812.0,25,LIME_HDSDR_REC,1202.0,RHCP,KUHNE_MKU,6801,High_Side,npp_hrd,1,0,1,1
 NOAA 21 (JPSS-2),active,7812.0,45,LIME_JL_HDSDR_REC,1202.0,RHCP,KUHNE_MKU,6800,High_Side,jpss_hrd,1,0,1,1
 AQUA,visual,8160.0,15,LIME_HDSDR_REC,1203.0,RHCP,KUHNE_MKU,6800,High_Side,aqua_db,1,0,1,1
 TERRA,active,8212.5,45,LIME_JL_HDSDR_REC,1204.0,RHCP,KUHNE_MKU,6800,High_Side,terra_db,1,0,1,1
