@@ -2,7 +2,9 @@
 ![image](https://github.com/SV1CAL/Satellite-FUN/assets/3455238/5a1d983a-11a6-43a7-a2b1-4dcf5e4b01c1)
 
 
-
+VERSION 1v37:
+- Added option to connect to antenna controller at startup
+- Bug fixes etc ,layout changes
 
 VERSION 1v36:
 - Enabled RHCP/LHCP polarization switch
