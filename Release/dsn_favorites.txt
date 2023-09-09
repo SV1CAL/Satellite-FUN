@@ -19,7 +19,7 @@ Decimation:[0 up to 100] Decimation
 POPULATE: [0:1] 0 means satellite will not be shown and no data will be downloaded from horizons
 #####################################################################################
 THOSE BELOW ARE POPULATED IN THE PASSLIST (see last parameter it is 1 !) 
-Stereo-A,-234,8443.51852,6,none,1300.0,RHCP,KUHNE_MKU,6800,High_Side,none,1,0,10,1
+Stereo-A,-234,8443.51852,2.5,none,1300.0,RHCP,KUHNE_MKU,6800,High_Side,none,1,0,10,1
 Euclid,-680,8455.000,6,none,1300.0,RHCP,KUHNE_MKU,6800,High_Side,none,1,0,1,0
 LFL,-164,8457.3,6,none,1300.0,RHCP,KUHNE_MKU,6800,High_Side,none,1,0,1,0
 JUICE,-28,8436.0478,6,none,1300.0,RHCP,KUHNE_MKU,6800,High_Side,none,1,0,1,0
