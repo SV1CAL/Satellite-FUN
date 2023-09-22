@@ -3,9 +3,12 @@
 
 VERSION 1v38:
 - Added option to show FFT when SatDump is used for recording or live processing.
-	This can be enabled with the following in config.txt
-	SATDUMP_FFT_SERVER_ON 1
-	SATDUMP_FFT_SERVER_IP 127.0.0.1
+
+  This can be enabled with the following in config.txt:
+  
+  SATDUMP_FFT_SERVER_ON 1
+  
+  SATDUMP_FFT_SERVER_IP 127.0.0.1
 
 VERSION 1v37:
 - Added option to connect to antenna controller at startup
