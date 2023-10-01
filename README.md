@@ -3,6 +3,7 @@
 
 VERSION 1v39:
 - Added timeout to web requests. Added average and peak power to SatDump FFT
+
 VERSION 1v38:
 - Added option to show FFT when SatDump is used for recording or live processing.
 
