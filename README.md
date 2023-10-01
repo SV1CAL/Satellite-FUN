@@ -1,6 +1,8 @@
 # Satellite-FUN
 ![image](https://github.com/SV1CAL/Satellite-FUN/assets/3455238/5a1d983a-11a6-43a7-a2b1-4dcf5e4b01c1)
 
+VERSION 1v39:
+- Added timeout to web requests. Added average and peak power to SatDump FFT
 VERSION 1v38:
 - Added option to show FFT when SatDump is used for recording or live processing.
 

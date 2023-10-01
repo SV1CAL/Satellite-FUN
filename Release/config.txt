@@ -12,7 +12,7 @@ SendPosition_ms_Hamlib 1500
 SendPosition_ms_DirectCOM 250
 MinTrackingStepDegrees 0.5
 Controller_prog Rot2Prog_0.5_Deg
-Comport COM8
+Comport COM6
 ComKuhneLO COM3
 HDSDR_PATH %PROGRAMFILES(X86)%\HDSDR
 HAMLIB_BIN_PATH %PROGRAMFILES(X86)%\hamlib-w64-4.1\bin
@@ -59,4 +59,3 @@ AutoSwitchPolarization 0
 ConnectAntenna 0
 SATDUMP_FFT_SERVER_ON 1
 SATDUMP_FFT_SERVER_IP 127.0.0.1
-
