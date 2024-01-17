@@ -2,6 +2,7 @@
 ![image](https://github.com/SV1CAL/Satellite-FUN/assets/3455238/5a1d983a-11a6-43a7-a2b1-4dcf5e4b01c1)
 VERSION 1v41:
 - Catch config.txt issues
+
 VERSION 1v40:
 - Fixed issue with keplerian updates. Now using update_keps.ps1 powershell script
 
