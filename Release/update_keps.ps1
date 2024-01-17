@@ -1,0 +1,14 @@
+powershell -Command Invoke-WebRequest https://celestrak.org/NORAD/elements/gp.php?GROUP=weather -OutFile kepler\weather\weather.txt;
+Start-Sleep -Seconds 7;
+powershell -Command Invoke-WebRequest https://celestrak.org/NORAD/elements/gp.php?GROUP=active -OutFile kepler\active\active.txt;
+Start-Sleep -Seconds 7;
+powershell -Command Invoke-WebRequest https://celestrak.org/NORAD/elements/gp.php?GROUP=satnogs -OutFile kepler\satnogs\satnogs.txt;
+Start-Sleep -Seconds 7;
+powershell -Command Invoke-WebRequest https://celestrak.org/NORAD/elements/gp.php?GROUP=noaa -OutFile kepler\noaa\noaa.txt;
+Start-Sleep -Seconds 7;
+powershell -Command Invoke-WebRequest https://celestrak.org/NORAD/elements/gp.php?GROUP=visual -OutFile kepler\visual\visual.txt;
+Start-Sleep -Seconds 7;
+powershell -Command Invoke-WebRequest https://celestrak.org/NORAD/elements/gp.php?GROUP=geo -OutFile kepler\geo\geo.txt;
+Start-Sleep -Seconds 7;
+powershell -Command Invoke-WebRequest https://celestrak.org/NORAD/elements/gp.php?GROUP=amateur -OutFile kepler\amateur\amateur.txt;
+Start-Sleep -Seconds 7;
