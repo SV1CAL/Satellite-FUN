@@ -52,7 +52,7 @@ UpdateTLEs 0
 SATDUMP_PATH_NEW C:\satdump_230823\build\Release
 LimeGain 48
 AirspyGain 21
-ParkOnExit 1
+ParkOnExit 0
 AIRSPY_SERIAL_NUMBER default
 LIME_SERIAL_NUMBER default
 AutoSwitchPolarization 0
