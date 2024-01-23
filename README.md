@@ -1,6 +1,9 @@
 # Satellite-FUN
 ![image](https://github.com/SV1CAL/Satellite-FUN/assets/3455238/5a1d983a-11a6-43a7-a2b1-4dcf5e4b01c1)
 
+VERSION 1v44
+- Added register_DJTSatLib.ps1 and unregister_DJTSatLib.ps1 to easily install the DJTSatLib.dll
+
 VERSION 1v43
 - Trying to fix the issue with dot and comma. Should work now on Windows systems which by the default use the comma as decimal symbol.
 
