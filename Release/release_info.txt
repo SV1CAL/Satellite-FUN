@@ -1,0 +1,60 @@
+VERSION 1v44
+- Added register_DJTSatLib.ps1 and unregister_DJTSatLib.ps1 to easily install the DJTSatLib.dll
+
+VERSION 1v43
+- Trying to fix the issue with dot and comma. Should work now on Windows systems which by the default use the comma as decimal symbol.
+
+VERSION 1v42:
+- Added more messages
+
+VERSION 1v41:
+- Catch config.txt issues
+
+VERSION 1v40:
+- Fixed issue with keplerian updates. Now using update_keps.ps1 powershell script
+
+VERSION 1v39:
+- Added timeout to web requests. Added average and peak power to SatDump FFT
+
+VERSION 1v38:
+- Added option to show FFT when SatDump is used for recording or live processing.
+
+  This can be enabled with the following in config.txt:
+  
+  SATDUMP_FFT_SERVER_ON 1
+  
+  SATDUMP_FFT_SERVER_IP 127.0.0.1
+
+VERSION 1v37:
+- Added option to connect to antenna controller at startup
+- Bug fixes etc ,layout changes
+
+VERSION 1v36:
+- Enabled RHCP/LHCP polarization switch
+- Added decimation option
+- Added button with various links
+- Layout changes
+- Bug fixes
+
+VERSION 1v35:
+- Now HDSDR/Satdump/Results/Recording folder names can have spaces
+- Fixed bugs in the FIXED LO case
+- Added option to select Airspy / LimeSDR based on serial number. This is for SatDump only, not HDSDR . Added files airspy_serial_numbers.txt , lime_serial_numbers.txt
+- Simplifying GUI layout - work in progress
+
+VERSION 1v34:
+
+- Added Park on Exit option
+
+VERSION 1v33:
+
+- Corrected IF frequency calculation in the FIXED LO case.
+
+VERSION 1v32:
+
+- Bug fix related to TRACK SAT button
+
+VERSION 1v31:
+
+- Added DSN / Horizons tracking
+- Fixed a bug that was preventing favorites from getting printed in the pass list

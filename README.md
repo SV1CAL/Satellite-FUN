@@ -4,63 +4,7 @@
 VERSION 1v44
 - Added register_DJTSatLib.ps1 and unregister_DJTSatLib.ps1 to easily install the DJTSatLib.dll
 
-VERSION 1v43
-- Trying to fix the issue with dot and comma. Should work now on Windows systems which by the default use the comma as decimal symbol.
-
-VERSION 1v42:
-- Added more messages
-
-VERSION 1v41:
-- Catch config.txt issues
-
-VERSION 1v40:
-- Fixed issue with keplerian updates. Now using update_keps.ps1 powershell script
-
-VERSION 1v39:
-- Added timeout to web requests. Added average and peak power to SatDump FFT
-
-VERSION 1v38:
-- Added option to show FFT when SatDump is used for recording or live processing.
-
-  This can be enabled with the following in config.txt:
-  
-  SATDUMP_FFT_SERVER_ON 1
-  
-  SATDUMP_FFT_SERVER_IP 127.0.0.1
-
-VERSION 1v37:
-- Added option to connect to antenna controller at startup
-- Bug fixes etc ,layout changes
-
-VERSION 1v36:
-- Enabled RHCP/LHCP polarization switch
-- Added decimation option
-- Added button with various links
-- Layout changes
-- Bug fixes
-
-VERSION 1v35:
-- Now HDSDR/Satdump/Results/Recording folder names can have spaces
-- Fixed bugs in the FIXED LO case
-- Added option to select Airspy / LimeSDR based on serial number. This is for SatDump only, not HDSDR . Added files airspy_serial_numbers.txt , lime_serial_numbers.txt
-- Simplifying GUI layout - work in progress
-
-VERSION 1v34:
-
-- Added Park on Exit option
-
-VERSION 1v33:
-
-- Corrected IF frequency calculation in the FIXED LO case.
-
-VERSION 1v32:
-
-- Bug fix related to TRACK SAT button
-
-VERSION 1v31:
-
-- Added DSN / Horizons tracking
-- Fixed a bug that was preventing favorites from getting printed in the pass list
+Previous releases in release_info.txt
 
 INSTALLATION:
 
@@ -72,7 +16,7 @@ INSTALLATION:
 NOTES:
 
 - The DJTSatLib.dll needs to be registered first (see below).
-- The dot is used as the decimal point symbol.
+- The dot is used as the decimal point symbol in config.txt and in the graphical interface.
 - If you use this software, please check regularly back as I am constantly working on any bugs found/reported.
 
 
@@ -80,38 +24,11 @@ DLL installation:
 
 Windows 7/8/10/11 users must be administrators to successfully register the dll.
 
-- On 64 bit systems:
+64 bit : Right click on register_DJTSatLib.ps1 and run in powershell
 
-	First copy the DJTSatlib.dll to your Windows\SysWOW64 folder and 
-	register the dll being in that folder. This can be done as follows :
-	Open a cmd window as Administrator --> Start/All Programs/Accessories .
-	Then Right click and Select “Run as Administrator”.
-	Then change folder to Windows/SysWow64 by typing :
+32 bit : Right click on register_djtsatlib.bat and run as administrator
 
-	cd C:\Windows\SysWOW64
-
-	Now type:
-
-	 regsvr32 DJTSatlib.dll
-
-
-- On 32 bit systems:
-
-	Enter the unzipped folder and double-click on “install djtsatlib.bat”. 
-	This is only needed once, when the program is installed for the first time.
-	If this does not work try the following:
-	Copy/paste the dll into Windows/System32 folder and register the dll in there.
-	This can be done by first opening a cmd window   (Start/All Programs/Accessories). 
-	On W7 cmd must be opened as admin so Right click and Select “Run as Administrator”
-	In the cmd window that has just opened, change folder to Windows/System32 
-	by typing :
-
-	cd C:\Windows\System32
-
-	Now type:
-
-	 regsvr32 DJTSatlib.dll
-	 
+If the above does not work for some reason, follow the steps in README_to_install_DJTSatLib_dll.txt
 
 
 MORE INFO:
