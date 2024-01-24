@@ -8,19 +8,7 @@ Previous releases in release_info.txt
 
 INSTALLATION:
 
-- Unzip the downloaded folder to a location with read/write privileges. Register the dll (see below) and then run the exe file.
-- In the link below you can find more installation instructions and a basic user guide. Please read it:
-
-	https://sv1cal.com/satellite-fun-software/
-
-NOTES:
-
-- The DJTSatLib.dll needs to be registered first (see below).
-- The dot is used as the decimal point symbol in config.txt and in the graphical interface.
-- If you use this software, please check regularly back as I am constantly working on any bugs found/reported.
-
-
-DLL installation:
+- Unzip the downloaded folder to a location with read/write privileges. You must first register the dll ! If this not run, the program will not run!
 
 Windows 7/8/10/11 users must be administrators to successfully register the dll.
 
@@ -31,12 +19,20 @@ Windows 7/8/10/11 users must be administrators to successfully register the dll.
 If the above does not work for some reason, follow the steps in README_to_install_DJTSatLib_dll.txt
 
 
-MORE INFO:
+NOTES:
+- The dot is used as the decimal point symbol in config.txt and in the graphical interface.
+- If you use this software, please check regularly back as I am constantly working on any bugs found/reported.
+
+
+GETTING STARTED:
 
 Satellite FUN is a hobby project written in C# which predicts satellite passes, tracks satellites, automatically starts RF recording (HDSDR/SatDump) , post-processing (SatDump) etc.
 The main goal is unattended Weather/ Earth observation satellite reception on L,S and X band.
-
 It supports the SPID Rot2Prog protocol including the HR version , HamLib and e-Callisto (X/Y).
+
+In the link below you will find more instructions and a basic user guide. Please read it:
+
+	https://sv1cal.com/satellite-fun-software/
 
 
 ![image](https://github.com/SV1CAL/Satellite-FUN/assets/3455238/75381b61-a813-4372-8a1b-3a755b82b32a)
@@ -56,12 +52,11 @@ Some features :
 
 - Tracks the whole pass-list enabling automatic recording with HDSDR or SatDump . 
 
-- Automatically launches the appropriate SatDump demodulator/decoder and stores resulting files in a dedicated folder.
+- Automatically launches the appropriate SatDump demodulator/decoder and stores resulting files/pictures in a dedicated folder.
 
 - Can reset Lime's driver or power-cycle it using the RTS signal of a COM port. This is useful when Lime occasionally hangs . With this feature it will be restarted just before the satellite becomes visible.
 
 - Switches antenna polarization using the DTR signal of a COM port. This signal can go to a coaxial switch and select RHCP/LHCP.
-
 
 
 I have included the Airspy ExtIO dll and 2 ExtIO dlls for the LimeSDR.The official one (ExtIO_LimeSDR_1.07.dll) supports sampling rates up to 30 MSPS.
