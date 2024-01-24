@@ -1,20 +1,20 @@
 # Satellite-FUN
 ![image](https://github.com/SV1CAL/Satellite-FUN/assets/3455238/5a1d983a-11a6-43a7-a2b1-4dcf5e4b01c1)
 
-VERSION 1v44
-- Added register_DJTSatLib.ps1 and unregister_DJTSatLib.ps1 to easily install the DJTSatLib.dll
+VERSION 1v44:
 
-Previous releases in release_info.txt
+Added register_DJTSatLib.ps1 and unregister_DJTSatLib.ps1 to easily install the DJTSatLib.dll
+Previous release info can be found in release_info.txt
 
 INSTALLATION:
 
-- Unzip the downloaded folder to a location with read/write privileges. You must first register the dll ! If this not run, the program will not run!
+Unzip the downloaded folder to a location with read/write privileges. You must first register the dll ! If this not run, the program will not run!
 
 Windows 7/8/10/11 users must be administrators to successfully register the dll.
 
-64 bit : Right click on register_DJTSatLib.ps1 and run in powershell
+- 64 bit : Right click on register_DJTSatLib.ps1 and run in powershell
 
-32 bit : Right click on register_djtsatlib.bat and run as administrator
+- 32 bit : Right click on register_djtsatlib.bat and run as administrator
 
 If the above does not work for some reason, follow the steps in README_to_install_DJTSatLib_dll.txt
 
