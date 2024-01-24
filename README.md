@@ -3,12 +3,13 @@
 
 VERSION 1v44:
 
-Added register_DJTSatLib.ps1 and unregister_DJTSatLib.ps1 to easily install the DJTSatLib.dll
+Added register_DJTSatLib.ps1 and unregister_DJTSatLib.ps1 to easily install the DJTSatLib.dll.
+
 Previous release info can be found in release_info.txt
 
 INSTALLATION:
 
-Unzip the downloaded folder to a location with read/write privileges. You must first register the dll ! If this not run, the program will not run!
+Unzip the downloaded folder to a location with read/write privileges. You must first register the dll ! If this not done, the program will not run!
 
 Windows 7/8/10/11 users must be administrators to successfully register the dll.
 
