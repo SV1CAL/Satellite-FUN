@@ -40,6 +40,7 @@ In the link below you will find more instructions and a basic user guide. Please
 
 
 Some features :
+- Pass list takes into account Azimuth and Elevation tracking limits. E.g on my balcony I can only track eastern passes.
 
 - One can automatically launch HDSDR/SatDump with the proper settings per satellite.
 
