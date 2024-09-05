@@ -1,9 +1,8 @@
 # Satellite-FUN
 ![image](https://github.com/SV1CAL/Satellite-FUN/assets/3455238/5a1d983a-11a6-43a7-a2b1-4dcf5e4b01c1)
 
-VERSION 1v44:
-
-Added register_DJTSatLib.ps1 and unregister_DJTSatLib.ps1 to easily install the DJTSatLib.dll.
+VERSION 1v45
+- Added basic RTLSDR, SDRPLAY, BLADERF support. Still beta ,only RTLSDR could be tested. Fixed possible TLE offset bug
 
 Previous release info can be found in release_info.txt
 

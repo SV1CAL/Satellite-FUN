@@ -1,3 +1,6 @@
+VERSION 1v45
+- Added basic RTLSDR, SDRPLAY, BLADERF support. Still beta ,only RTLSDR could be tested. Fixed possible TLE offset bug
+
 VERSION 1v44
 - Added register_DJTSatLib.ps1 and unregister_DJTSatLib.ps1 to easily install the DJTSatLib.dll
 

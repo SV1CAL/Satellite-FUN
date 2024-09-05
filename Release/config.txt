@@ -3,7 +3,7 @@ MyLong 23.6
 MyHeight 40
 minAZ 0
 maxAZ 360
-minEL 15
+minEL 0
 maxEL 100
 AZoffset 0
 ELoffset 0
@@ -59,3 +59,5 @@ AutoSwitchPolarization 0
 ConnectAntenna 0
 SATDUMP_FFT_SERVER_ON 1
 SATDUMP_FFT_SERVER_IP 127.0.0.1/api
+TLE_TIME_OFFSET_MINS 1
+TLE_TIME_OFFSET_SECS 0.5
