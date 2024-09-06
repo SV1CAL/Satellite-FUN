@@ -49,7 +49,7 @@ AllowLimePowerCycling 0
 SATDUMP_RESULTS_PATH C:\Results
 AutoSatDump 1
 UpdateTLEs 0
-SATDUMP_PATH_NEW C:\satdump_230823\build\Release
+SATDUMP_PATH_NEW C:\Program Files\SatDump\bin
 LimeGain 48
 AirspyGain 21
 ParkOnExit 0
