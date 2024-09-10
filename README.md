@@ -1,11 +1,9 @@
 # Satellite-FUN
 ![image](https://github.com/SV1CAL/Satellite-FUN/assets/3455238/5a1d983a-11a6-43a7-a2b1-4dcf5e4b01c1)
 
-VERSION 1v451
-- Now latest SatDump v1.2.0 is supported. Command line argument was changed from s8 to cs8 and this caused troubles. Disabled FFT for now.
 
-VERSION 1v45
-- Added basic RTLSDR, SDRPLAY, BLADERF support. Still beta ,only RTLSDR could be tested. Fixed possible TLE offset bug
+VERSION 1v452
+- Fixed SatDump FFT support.Latest SatDump v1.2.0 is supported. Command line argument was changed from s8 to cs8 and this caused troubles. 
 
 Previous release info can be found in release_info.txt
 
