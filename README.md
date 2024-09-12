@@ -72,3 +72,7 @@ NOTES:
 In the link below you will find more instructions and a basic user guide. Please read it:
 
 	https://sv1cal.com/satellite-fun-software/
+	
+Last but not least !
+
+YOU NEED TO RUN SATELLITE FUN AS AN ADMINISTRATOR (right click and hit run as administrator)
