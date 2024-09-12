@@ -12,7 +12,6 @@ Satellite FUN is a hobby project written in C# which predicts satellite passes, 
 Pictures and data are automatically stored in dedicated folders.
 The main goal is unattended Weather/ Earth observation satellite reception on L,S and X band.
 
-![image](https://github.com/SV1CAL/Satellite-FUN/assets/3455238/75381b61-a813-4372-8a1b-3a755b82b32a)
 
 Some features :
 
