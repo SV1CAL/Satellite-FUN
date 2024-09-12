@@ -8,26 +8,22 @@ Previous release info can be found in release_info.txt
 
 GETTING STARTED:
 
-Satellite FUN is a hobby project written in C# which predicts satellite passes, tracks satellites, automatically starts RF recording (HDSDR/SatDump) , post-processing (SatDump) etc.
+Satellite FUN is a hobby project written in C# which predicts satellite passes, tracks satellites, automatically starts RF recording (HDSDR/SatDump), post-processing (SatDump) etc.
 Pictures and data are automatically stored in dedicated folders.
 The main goal is unattended Weather/ Earth observation satellite reception on L,S and X band.
 
 
 Some features :
 
-- It supports the SPID Rot2Prog protocol (RAS/BIGRAS standard resolution but also high resolution HR), other rotators through HamLib and e-Callisto in X/Y configuration.
+- It supports the SPID Rot2Prog protocol (RAS/BIG-RAS standard resolution but also high resolution HR), other rotators through HamLib and e-Callisto in X/Y configuration.
 
 - There is a favorite satellite list (favorites.txt) with Satellite TX frequency,  Recording sampling rate, polarization , postprocessing pipelines etc
 
-- A passlist is calculated for the satellites in the list and the alculation takes into account Azimuth and Elevation tracking limits. 
+- A passlist is calculated for the satellites in the list and the calculation takes into account Azimuth and Elevation tracking limits. E.g on my balcony I can only track eastern passes so I just enable tracking eastern passes within the specified AZ/EL limits.
 
-E.g on my balcony I can only track eastern passes so I just enable tracking eastern passes within the specified AZ limits.
+- Tracks the whole pass-list enabling automatic recording (HDSDR/SatDump) and postprocessing (SatDump). Pictures and data are automatically stored in dedicated folders.
 
-- Tracks the whole pass-list enabling automatic recording (HDSDR/SatDump) and postprocessing (SatDump). 
-
-Pictures and data are automatically stored in dedicated folders.
-
-- In manual mode , one can automatically launch HDSDR/SatDump or program the Kuhne LO MKU (54-13000MHz)  with the proper settings per satellite.
+- In manual mode, one can automatically launch HDSDR/SatDump or program the Kuhne LO MKU (54-13000MHz) with the proper settings per satellite.
 
 - It also supports fixed LO downconverters and operation without a converter (just passing the frequency to the SDR)
 
@@ -43,9 +39,6 @@ Pictures and data are automatically stored in dedicated folders.
 
 - Switches antenna polarization using the DTR signal of a COM port. This signal can go to a coaxial switch and select RHCP/LHCP.
 
-In the link below you will find more instructions and a basic user guide. Please read it:
-
-	https://sv1cal.com/satellite-fun-software/
 
 
 I have included the Airspy ExtIO dll, RTS SDR dll and 2 ExtIO dlls for the LimeSDR.The official one (ExtIO_LimeSDR_1.07.dll) supports sampling rates up to 30 MSPS.
@@ -65,8 +58,10 @@ Windows 7/8/10/11 users must be administrators to successfully register the dll.
 
 If the above does not work for some reason, follow the steps in README_to_install_DJTSatLib_dll.txt
 
-
 NOTES:
 - The dot is used as the decimal point symbol in config.txt and in the graphical interface.
 - If you use this software, please check regularly back as I am constantly working on any bugs found/reported.
 
+In the link below you will find more instructions and a basic user guide. Please read it:
+
+	https://sv1cal.com/satellite-fun-software/
