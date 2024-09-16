@@ -1,6 +1,9 @@
 # Satellite-FUN
 ![image](https://github.com/SV1CAL/Satellite-FUN/assets/3455238/5a1d983a-11a6-43a7-a2b1-4dcf5e4b01c1)
 
+VERSION 1v453
+- Minor layout changes, increased wait time when restarting rotator com port, added more debug messages
+
 VERSION 1v452
 - Fixed SatDump FFT support.Latest SatDump v1.2.0 is now supported. Command line argument was changed from s8 to cs8 and this caused troubles. 
 
