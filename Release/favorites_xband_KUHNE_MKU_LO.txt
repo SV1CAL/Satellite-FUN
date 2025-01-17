@@ -19,8 +19,13 @@ Decimation:[1 up 100] Decimation
 PASSLIST: [0:1] 0 means satellite will not appear in PassList.
 #####################################################################################
 THOSE BELOW ARE POPULATED IN THE PASSLIST (see last parameter it is 1 !) 
-NOAA 15,weather,2247.5,4,LIME_HDSDR_REC,2247.5,RHCP,NO_CONVERTER,9600,High_Side,noaa_hrpt,1,0,1,1
-NOAA 18,weather,2247.5,4,LIME_HDSDR_REC,2247.5,RHCP,NO_CONVERTER,9600,High_Side,noaa_hrpt,1,0,1,1
-NOAA 19,weather,2247.5,4,LIME_HDSDR_REC,2247.5,RHCP,NO_CONVERTER,9600,High_Side,noaa_hrpt,1,0,1,1
-LANDSAT 9,active,2282.3,4,LIME_HDSDR_REC,2282.3,RHCP,NO_CONVERTER,9600,High_Side,landsat_ldcm_tlm,1,0,1,1
+NOAA 20 (JPSS-1),weather,7812.0,25,LIME_HDSDR_REC,1202.0,RHCP,KUHNE_MKU,9600,High_Side,npp_hrd,1,0,1,1
+NOAA 21 (JPSS-2),active,7812.0,45,LIME_JL_HDSDR_REC,1202.0,RHCP,KUHNE_MKU,9600,High_Side,jpss_hrd,1,0,1,1
+AQUA,visual,8160.0,15,LIME_HDSDR_REC,1203.0,RHCP,KUHNE_MKU,9600,High_Side,aqua_db,1,0,1,1
+SUOMI NPP,active,7812.0,25,LIME_HDSDR_REC,1205.0,RHCP,KUHNE_MKU,9600,High_Side,npp_hrd,1,0,1,1
+FENGYUN 3D,weather,7820.0,45,LIME_JL_HDSDR_REC,1201.0,RHCP,KUHNE_MKU,9600,High_Side,fengyun3_d_ahrpt,1,0,1,1
+FENGYUN 3E,active,7860.0,45,LIME_JL_HDSDR_REC,1206.0,RHCP,KUHNE_MKU,9600,High_Side,fengyun3_e_ahrpt,1,0,1,1
+FENGYUN 3G,active,7790,45,LIME_JL_HDSDR_REC,1200.5,RHCP,KUHNE_MKU,9600,High_Side,fengyun3_g_ahrpt,1,0,1,1
+
+
 
