@@ -4,6 +4,7 @@
 VERSION 1v456
 - Added BladeRF,Rtlsdr,Sdrplay Gains to config.txt . Your old config.txt will not work. Please update it accordingly.
 - Added option to leave the dish where pass ended during pass list tracking , instead of going to the parking position
+- Fixed FFT issue not showing up when recording with Satdump (it was ok though with live Satdump processing)
 - Some GUI changes , various bug fixes
 
 
