@@ -3,7 +3,9 @@
 
 VERSION 1v456
 - Added BladeRF,Rtlsdr,Sdrplay Gains to config.txt . Your old config.txt will not work. Please update it accordingly.
+- Added option to leave the dish where pass ended during pass list tracking , instead of going to the parking position
 - Some GUI changes , various bug fixes
+
 
 VERSION 1v455
 - Added GS232B_1decimal supporting GS232B-like commands --> Write position command  Waaa.a eee.e ,  Read position command: AZ=aaa.a EL=eee.e
