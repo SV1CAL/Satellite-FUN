@@ -1,6 +1,10 @@
 # Satellite-FUN
 ![image](https://github.com/SV1CAL/Satellite-FUN/assets/3455238/5a1d983a-11a6-43a7-a2b1-4dcf5e4b01c1)
 
+VERSION 1v456
+- Added BladeRF,Rtlsdr,Sdrplay Gains to config.txt . Your old config.txt will not work. Please update it accordingly.
+- Some GUI changes , various bug fixes
+
 VERSION 1v455
 - Added GS232B_1decimal supporting GS232B-like commands --> Write position command  Waaa.a eee.e ,  Read position command: AZ=aaa.a EL=eee.e
  
