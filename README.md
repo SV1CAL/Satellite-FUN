@@ -1,5 +1,6 @@
 # Satellite-FUN
-![image](https://github.com/SV1CAL/Satellite-FUN/assets/3455238/5a1d983a-11a6-43a7-a2b1-4dcf5e4b01c1)
+<img width="1939" height="1276" alt="image" src="https://github.com/user-attachments/assets/f6bcbb25-4242-47e1-8011-79c10f6e7c1a" />
+
 VERSION 1v457
 - Improved SatDump FTT adding averaging , zoom in etc
 - Added channel_id and path_id parameter to favorites.txt . For example, channel_id 0 can be used for L band and channel_id 1 for X band. Similarly path_id selects LNAL,LNAH,LNAW in LimeSDR.
