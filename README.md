@@ -9,25 +9,6 @@ VERSION 1v457
 - Bug fixes 
 
 
-VERSION 1v456
-- Added BladeRF,Rtlsdr,Sdrplay Gains to config.txt . Your old config.txt will not work. Please update it accordingly.
-- Added option to leave the dish where pass ended during pass list tracking , instead of going to the parking position
-- Fixed FFT issue not showing up when recording with Satdump (it was ok though with live Satdump processing)
-- Some GUI changes , various bug fixes
-
-
-VERSION 1v455
-- Added GS232B_1decimal supporting GS232B-like commands --> Write position command  Waaa.a eee.e ,  Read position command: AZ=aaa.a EL=eee.e
- 
-VERSION 1v454
-- Added GS232 initial support
-
-VERSION 1v453
-- Minor layout changes, increased wait time when restarting rotator com port, added more debug messages
-
-VERSION 1v452
-- Fixed SatDump FFT support.Latest SatDump v1.2.0 is now supported. Command line argument was changed from s8 to cs8 and this caused troubles. 
-
 Previous release info can be found in release_info.txt
 
 GETTING STARTED:
