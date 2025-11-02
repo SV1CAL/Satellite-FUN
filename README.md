@@ -2,6 +2,7 @@
 ![image](https://github.com/SV1CAL/Satellite-FUN/assets/3455238/5a1d983a-11a6-43a7-a2b1-4dcf5e4b01c1)
 VERSION 1v457
 - Improved SatDump FTT adding averaging , zoom in etc
+- Added channel_id and path_id parameter to favorites.txt . For example, channel_id 0 can be used for L band and channel_id 1 for X band. Similarly path_id selects LNAL,LNAH,LNAW in LimeSDR.
 - Now different AZ/EL offsets can be entered per satellite in favorites.txt selecting between default_ant_offset and ant_offset1,2,3,4,5. Useful when there are multiple feeds in the focus
 - Also different SDR gain per satellite can be defined in favorites.txt instead of having a commpon gain per SDR. 
 - Bug fixes 
