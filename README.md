@@ -22,7 +22,7 @@ Some features :
 
 - It supports the SPID Rot2Prog protocol (RAS/BIG-RAS standard resolution but also high resolution HR), other rotators through HamLib and e-Callisto in X/Y configuration.
 
-- There is a favorite satellite list (favorites.txt) with Satellite TX frequency,  Recording sampling rate, polarization , postprocessing pipelines etc
+- There is a favorite satellite list (favorites.txt) with Satellite TX frequency,  Recording sampling rate, polarization , decoder, SDR gain, antenna az/el offset, channel_id, path_id etc
 
 - A passlist is calculated for the satellites in the list and the calculation takes into account number of days, min mid pass elevation but also Azimuth and Elevation tracking limits. E.g on my balcony I can only track eastern passes so I just enable tracking eastern passes within the specified AZ/EL limits.
 
@@ -36,7 +36,7 @@ Some features :
 
 - AZ/EL can be calculated using RA/dec info. X/Y coordinates are calculated in the e-Callisto controller case and 2 DiseQc motors in X/Y config.
 
-- SDRs currently supported are a subset of what is supported by SatDump: AIRSPY R2/Mini, LimeSDR, RTLSDR. Recently added Bladerf and SDRplay but these have not yet been tested.
+- SDRs currently supported are a subset of what is supported by SatDump: AIRSPY R2/Mini, LimeSDR, RTLSDR. Recently added Bladerf and SDRplay
 
 - When SatDump is used for recording/live processing shows the FFT spectrum and statistics in a window. This is useful when e.g adjusting antenna pointing in real time.
  
