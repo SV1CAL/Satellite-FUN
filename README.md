@@ -1,5 +1,11 @@
 # Satellite-FUN
 ![image](https://github.com/SV1CAL/Satellite-FUN/assets/3455238/5a1d983a-11a6-43a7-a2b1-4dcf5e4b01c1)
+VERSION 1v457
+- Improved SatDump FTT adding averaging , zoom in etc
+- Now different AZ/EL offsets can be entered per satellite in favorites.txt selecting between default_ant_offset and ant_offset1,2,3,4,5. Useful when there are multiple feeds in the focus
+- Also different SDR gain per satellite can be defined in favorites.txt instead of having a commpon gain per SDR. 
+- Bug fixes 
+
 
 VERSION 1v456
 - Added BladeRF,Rtlsdr,Sdrplay Gains to config.txt . Your old config.txt will not work. Please update it accordingly.
