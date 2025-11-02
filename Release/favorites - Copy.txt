@@ -1,10 +1,6 @@
-#######################################################
-IF YOU WANT TO USE THIS FILE RENAME IT TO favorites.txt
-#######################################################
-
 Comma separated settings per satellite.
 Each satellites needs 19 comma-separated settings.
-This file is normally created by hitting the "Add Selected Satellite to Favorites" button but can also be manually edited.
+This file is normally created by hitting the "Add Selected to favorites.txt" button but can also be manually edited.
 
 #########################################################################################
 Below is each item explained:
@@ -47,9 +43,10 @@ Below is each item explained:
 19. PASSLIST: [0:1] 0 means satellite will not appear in PassList. So you don't have to delete it from this file, but it will not show up.
 
 #####################################################################################
-THOSE BELOW ARE POPULATED IN THE PASSLIST (see last parameter it is 1 !) 
-METOP-B,weather,1701.3,6,AIRSPY_SATDUMP_LIVE,1701.3,RHCP,NO_CONVERTER,6800,High_Side,metop_ahrpt,1,0,1,1
-METOP-C,weather,1701.3,6,AIRSPY_SATDUMP_LIVE,1701.3,RHCP,NO_CONVERTER,6800,High_Side,metop_ahrpt,1,0,1,1
-METEOR-M2 2,weather,1700.0,6,AIRSPY_SATDUMP_LIVE,1700.0,RHCP,NO_CONVERTER,6800,High_Side,meteor_hrpt,1,0,1,1
-
-
+ISS (ZARYA),active,2395,10,LIME_SATDUMP_REC,1701.3,RHCP,NO_CONVERTER,9600,High_Side,none,1,0,1,0,3,ant_offset1,default_gain,1
+METOP-B,weather,1701.3,6,LIME_SATDUMP_LIVE,1701.3,RHCP,NO_CONVERTER,9600,High_Side,metop_ahrpt,1,0,1,0,3,default_ant_offset,default_gain,1
+METOP-C,weather,1701.3,6,LIME_SATDUMP_LIVE,1701.3,RHCP,NO_CONVERTER,9600,High_Side,metop_ahrpt,1,0,1,0,3,default_ant_offset,default_gain,1
+METEOR-M2 2,weather,1700.0,6,LIME_SATDUMP_LIVE,1700.0,RHCP,NO_CONVERTER,9600,High_Side,meteor_hrpt,1,0,1,0,3,ant_offset1,21,1
+METEOR-M2 3,weather,1700.0,6,LIME_SATDUMP_LIVE,1700.0,RHCP,NO_CONVERTER,9600,High_Side,meteor_hrpt,1,0,1,0,3,ant_offset1,22,1
+METEOR-M2 4,weather,1700.0,6,LIME_SATDUMP_LIVE,1700.0,RHCP,NO_CONVERTER,9600,High_Side,meteor_hrpt,1,0,1,0,3,ant_offset1,23,1
+########################################################################################
