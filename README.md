@@ -1,6 +1,11 @@
 # Satellite-FUN
 <img width="1939" height="1276" alt="image" src="https://github.com/user-attachments/assets/f6bcbb25-4242-47e1-8011-79c10f6e7c1a" />
 
+TO DO:
+- Simplify layout, hide settings behind a tab etc
+- Make passlist calculation faster
+- Present passlist , satellites, settings in tabulated format and maybe allow direct edits
+
 VERSION 1v457
 - Improved SatDump FTT adding averaging , zoom-in etc
 - Added SatDump's channel_id and path_id parameters to favorites.txt .In the BladeRF and LimeSDR cases, for example channel_id 0 could be used for L band and channel_id 1 for X band and so on. Similarly path_id selects LNAL,LNAH,LNAW in the LimeSDR case.
@@ -20,30 +25,32 @@ The main goal is unattended Weather/ Earth observation satellite reception on L,
 
 Some features :
 
-- It supports the SPID Rot2Prog protocol (RAS/BIG-RAS standard resolution but also high resolution HR), other rotators through HamLib and e-Callisto in X/Y configuration.
+- It supports the SPID Rot2Prog protocol (0.1/0.5/1 deg resolution), e-Callisto in X/Y configuration and other rotators through HamLib.
 
-- There is a favorite satellite list (favorites.txt) with Satellite TX frequency,  Recording sampling rate, polarization , decoder, SDR gain, antenna az/el offset, channel_id, path_id etc
+- Important Settings are saved to config.txt.
+
+- There is a favorite satellite list stored in favorites.txt with Satellite TX frequency, sampling rate, polarization, decoder, SDR gain, antenna az/el offset, channel_id, path_id etc
+
+- There is also a dsn_favorite.txt file where DSN objects ,frequency etc are stored. These objects can then be tracked automatically downloading position from Horizons. 
 
 - A passlist is calculated for the satellites in the list and the calculation takes into account number of days, min mid pass elevation but also Azimuth and Elevation tracking limits. E.g on my balcony I can only track eastern passes so I just enable tracking eastern passes within the specified AZ/EL limits.
 
 - Tracks the whole pass-list enabling automatic recording (HDSDR/SatDump) and postprocessing (SatDump). Pictures and data are automatically stored in dedicated folders.
 
-- In manual mode,one can automatically launch HDSDR/SatDump with the proper settings per satellite, program the Kuhne LO MKU (54-13000MHz),switch polarization .
-
-- It also supports fixed LO downconverters and operation without a converter (just passing the frequency to the SDR)
-
-- There is also a dsn_favorite.txt file where DSN objects ,frequency etc are stored. These objects can then be tracked automatically downloading position from Horizons. 
-
-- AZ/EL can be calculated using RA/dec info. X/Y coordinates are calculated in the e-Callisto controller case and 2 DiseQc motors in X/Y config.
-
-- SDRs currently supported are a subset of what is supported by SatDump: AIRSPY R2/Mini, LimeSDR, RTLSDR. Recently added Bladerf and SDRplay
-
-- When SatDump is used for recording/live processing shows the FFT spectrum and statistics in a window. This is useful when e.g adjusting antenna pointing in real time.
- 
-- Antenna pointing offsets can be changed on the fly.
+- Antenna pointing offsets can be changed on the fly. Up to 6 different antenna offsets can be stored in case e.g multiple feeds are in the parabola focus at different offsets.
 
 - Time offsets in seconds/minutes can be changed on the fly (look ahead TLE tuning).
 
+- In manual mode, one can automatically launch HDSDR/SatDump with the proper settings per satellite, program the Kuhne LO MKU (54-13000MHz),switch polarization .
+
+- It also supports fixed LO downconverters and operation without a converter (just passing the frequency to the SDR)
+
+- AZ/EL can be calculated using RA/dec info. X/Y coordinates are calculated in the e-Callisto controller case and 2 DiseQc motors in X/Y config.
+
+- SDRs currently supported are a subset of what is supported by SatDump: AIRSPY R2/Mini, LimeSDR, RTLSDR, Bladerf and SDRplay
+
+- When SatDump is used for recording/live processing, it can show the FFT spectrum and statistics in a window. This is useful when e.g adjusting antenna pointing in real time.
+ 
 - Can reset Lime's driver or power-cycle it using the RTS signal of a COM port. This is useful when Lime occasionally hangs . With this feature it will be restarted just before the satellite becomes visible.
 
 - Switches antenna polarization using the DTR signal of a COM port. This signal can go to a coaxial switch and select RHCP/LHCP.
@@ -64,9 +71,9 @@ Unzip the downloaded folder to a location with read/write privileges. You must f
 
 Windows 7/8/10/11 users must be administrators to successfully register the dll.
 
-- 64 bit : Right click on register_DJTSatLib.ps1 and run in powershell
+- 64 bit : Right click on register_DJTSatLib.ps1 and then click on Run with PowerShell
 
-- 32 bit : Right click on register_djtsatlib.bat and run as administrator
+- 32 bit : Right click on register_djtsatlib.bat and then click on Run as administrator
 
 If the above does not work for some reason, follow the steps in README_to_install_DJTSatLib_dll.txt
 
