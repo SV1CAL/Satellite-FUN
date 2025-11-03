@@ -2,10 +2,10 @@
 <img width="1939" height="1276" alt="image" src="https://github.com/user-attachments/assets/f6bcbb25-4242-47e1-8011-79c10f6e7c1a" />
 
 VERSION 1v457
-- Improved SatDump FTT adding averaging , zoom in etc
-- Added channel_id and path_id parameter to favorites.txt . For example, channel_id 0 can be used for L band and channel_id 1 for X band. Similarly path_id selects LNAL,LNAH,LNAW in LimeSDR.
-- Now different AZ/EL offsets can be entered per satellite in favorites.txt selecting between default_ant_offset and ant_offset1,2,3,4,5. Useful when there are multiple feeds in the focus
-- Also different SDR gain per satellite can be defined in favorites.txt instead of having a commpon gain per SDR. 
+- Improved SatDump FTT adding averaging , zoom-in etc
+- Added SatDump's channel_id and path_id parameters to favorites.txt .In the BladeRF and LimeSDR cases, for example channel_id 0 could be used for L band and channel_id 1 for X band and so on. Similarly path_id selects LNAL,LNAH,LNAW in the LimeSDR case.
+- Now different AZ/EL offsets can be entered per satellite in favorites.txt selecting between default_ant_offset and ant_offset1,2,3,4,5. Useful when there are multiple feeds in the focus. When adjusting AZ/EL offsets on the fly during a pass any changes will be saved to the corresponding offsets in config.txt
+- Also besides the fixed gains per SDR used so far (as defined in config.txt) , now different SDR gain per satellite can also be defined in favorites.txt.
 - Bug fixes 
 
 
