@@ -47,8 +47,8 @@ Below is each item explained:
 
 #####################################################################################
 THOSE BELOW ARE POPULATED IN THE PASSLIST (see last parameter it is 1 !) 
-NOAA 15,weather,2247.5,4,LIME_SATDUMP_LIVE,2247.5,RHCP,NO_CONVERTER,9600,High_Side,noaa_hrpt,1,0,1,1
-NOAA 18,weather,2247.5,4,LIME_SATDUMP_LIVE,2247.5,RHCP,NO_CONVERTER,9600,High_Side,noaa_hrpt,1,0,1,1
-NOAA 19,weather,2247.5,4,LIME_SATDUMP_LIVE,2247.5,RHCP,NO_CONVERTER,9600,High_Side,noaa_hrpt,1,0,1,1
+NOAA 15,weather,2247.5,4,LIME_SATDUMP_LIVE,2247.5,RHCP,NO_CONVERTER,9600,High_Side,noaa_hrpt,1,0,1,0,3,default_ant_offset,default_gain,1
+NOAA 18,weather,2247.5,4,LIME_SATDUMP_LIVE,2247.5,RHCP,NO_CONVERTER,9600,High_Side,noaa_hrpt,1,0,1,0,3,default_ant_offset,default_gain,1
+NOAA 19,weather,2247.5,4,LIME_SATDUMP_LIVE,2247.5,RHCP,NO_CONVERTER,9600,High_Side,noaa_hrpt,1,0,1,0,3,default_ant_offset,default_gain,1
 
 

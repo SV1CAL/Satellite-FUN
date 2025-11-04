@@ -48,8 +48,8 @@ Below is each item explained:
 
 #####################################################################################
 THOSE BELOW ARE POPULATED IN THE PASSLIST (see last parameter it is 1 !) 
-METOP-B,weather,1701.3,6,AIRSPY_SATDUMP_LIVE,1701.3,RHCP,NO_CONVERTER,6800,High_Side,metop_ahrpt,1,0,1,1
-METOP-C,weather,1701.3,6,AIRSPY_SATDUMP_LIVE,1701.3,RHCP,NO_CONVERTER,6800,High_Side,metop_ahrpt,1,0,1,1
-METEOR-M2 2,weather,1700.0,6,AIRSPY_SATDUMP_LIVE,1700.0,RHCP,NO_CONVERTER,6800,High_Side,meteor_hrpt,1,0,1,1
+METOP-B,weather,1701.3,6,AIRSPY_SATDUMP_LIVE,1701.3,RHCP,NO_CONVERTER,6800,High_Side,metop_ahrpt,1,0,1,0,3,default_ant_offset,default_gain,1
+METOP-C,weather,1701.3,6,AIRSPY_SATDUMP_LIVE,1701.3,RHCP,NO_CONVERTER,6800,High_Side,metop_ahrpt,1,0,1,0,3,default_ant_offset,default_gain,1
+METEOR-M2 2,weather,1700.0,6,AIRSPY_SATDUMP_LIVE,1700.0,RHCP,NO_CONVERTER,6800,High_Side,meteor_hrpt,1,0,1,0,3,default_ant_offset,default_gain,1
 
 
