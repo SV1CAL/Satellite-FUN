@@ -18,7 +18,7 @@ HDSDR_PATH C:\Program Files (x86)\HDSDR
 HAMLIB_BIN_PATH C:\Program Files\hamlib-w64-4.6.3\bin
 MinRotatorStepDegrees 0.5
 AntControllerComportBAUDRATE 600
-MinMidPassEL 10
+MinMidPassEL 20
 MaxMidPassEL 90
 NumberOfDays 2
 EastChecked 1
