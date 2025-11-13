@@ -50,9 +50,9 @@ SUOMI NPP,active,7812.0,25,BLADERF_SATDUMP_REC,1205.0,LHCP,FIXED,7000,High_Side,
 FENGYUN 3D,active,7820.0,45,BLADERF_SATDUMP_REC,9600.0,LHCP,FIXED,7000,High_Side,fengyun3_d_ahrpt,1,0,1,0,3,default_ant_offset,default_gain,1
 FENGYUN 3E,active,7860.0,45,BLADERF_SATDUMP_REC,1206.0,LHCP,FIXED,7000,High_Side,fengyun3_e_ahrpt,1,0,1,0,3,default_ant_offset,default_gain,1
 FENGYUN 3G,active,7790,45,BLADERF_SATDUMP_REC,1200.5,LHCP,FIXED,7000,High_Side,fengyun3_g_ahrpt,1,0,1,0,3,default_ant_offset,default_gain,1
-METOP-B,weather,1701.3,6,SDRPLAY_SATDUMP_LIVE,1701.3,RHCP,NO_CONVERTER,6800,High_Side,metop_ahrpt,1,0,1,1,3,default_ant_offset,default_gain,1
-METOP-C,weather,1701.3,6,SDRPLAY_SATDUMP_LIVE,1701.3,RHCP,NO_CONVERTER,6800,High_Side,metop_ahrpt,1,0,1,1,3,default_ant_offset,default_gain,1
-METEOR-M2 3,weather,1700.0,6,SDRPLAY_SATDUMP_LIVE,1700.0,LHCP,NO_CONVERTER,6800,High_Side,meteor_hrpt,1,0,1,1,3,default_ant_offset,default_gain,1
-METEOR-M2 4,weather,1700.0,6,SDRPLAY_SATDUMP_LIVE,1700.0,LHCP,NO_CONVERTER,6800,High_Side,meteor_hrpt,1,0,1,1,3,default_ant_offset,default_gain,1
+METOP-B,weather,1701.3,6,BLADERF_SATDUMP_LIVE,1701.3,RHCP,NO_CONVERTER,6800,High_Side,metop_ahrpt,1,0,1,1,3,default_ant_offset,default_gain,1
+METOP-C,weather,1701.3,6,BLADERF_SATDUMP_LIVE,1701.3,RHCP,NO_CONVERTER,6800,High_Side,metop_ahrpt,1,0,1,1,3,default_ant_offset,default_gain,1
+METEOR-M2 3,weather,1700.0,6,BLADERF_SATDUMP_LIVE,1700.0,LHCP,NO_CONVERTER,6800,High_Side,meteor_hrpt,1,0,1,1,3,default_ant_offset,default_gain,1
+METEOR-M2 4,weather,1700.0,6,BLADERF_SATDUMP_LIVE,1700.0,LHCP,NO_CONVERTER,6800,High_Side,meteor_hrpt,1,0,1,1,3,default_ant_offset,default_gain,1
 METOP-SGA1,active,7825.0,115,BLADERF_SATDUMP_REC,1203.0,LHCP,FIXED,7000,High_Side,metop-sga1_ahrpt,1,0,1,0,3,default_ant_offset,default_gain,1
 FENGYUN 3F,active,7790.0,45,BLADERF_SATDUMP_REC,9600.0,LHCP,FIXED,7000,High_Side,fengyun3_f_ahrpt,1,0,1,0,3,default_ant_offset,default_gain,1
