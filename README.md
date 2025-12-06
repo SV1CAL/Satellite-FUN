@@ -3,14 +3,14 @@
 
 TO DO:
 - Simplify layout, hide settings behind a tab etc
-- Make passlist calculation faster
 - Present passlist , satellites, settings in tabulated format and maybe allow direct edits
 
-VERSION 1v457
-- Improved SatDump FTT adding averaging , zoom-in etc
-- Added SatDump's channel_id and path_id parameters to favorites.txt .In the BladeRF and LimeSDR cases, for example channel_id 0 could be used for L band and channel_id 1 for X band and so on. Similarly path_id selects LNAL,LNAH,LNAW in the LimeSDR case.
-- Now different AZ/EL offsets can be entered per satellite in favorites.txt selecting between default_ant_offset and ant_offset1,2,3,4,5. Useful when there are multiple feeds in the focus. When adjusting AZ/EL offsets on the fly during a pass any changes will be saved to the corresponding offsets in config.txt
-- Also besides the fixed gains per SDR used so far (as defined in config.txt) , now different SDR gain per satellite can also be defined in favorites.txt.
+VERSION 1v458
+- Improved automatic post-processing recorded files. 
+- Files recorded are stored in all_recorded_files.txt. 
+- Files to be automatically processed are kept in pending_files.txt with all data needed. 
+- Files done are stored in processed_files.txt
+- Added option to turn antenna to AOS position two minutes before pass start.
 - Bug fixes 
 
 

@@ -73,3 +73,4 @@ Ant_offset4_az 0.00
 Ant_offset4_el 0.00
 Ant_offset5_az 0.00
 Ant_offset5_el 0.00
+WakeUpRotator 1

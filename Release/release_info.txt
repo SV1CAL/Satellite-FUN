@@ -1,3 +1,15 @@
+TO DO:
+- Simplify layout, hide settings behind a tab etc
+- Present passlist , satellites, settings in tabulated format and maybe allow direct edits
+
+VERSION 1v458
+- Improved automatic post-processing recorded files. 
+- Files recorded are stored in all_recorded_files.txt. 
+- Files to be automatically processed are kept in pending_files.txt with all data needed. 
+- Files done are stored in processed_files.txt
+- Added option to turn antenna to AOS position two minutes before pass start.
+- Bug fixes 
+
 VERSION 1v457
 - Improved SatDump FTT adding averaging , zoom in etc
 - Added channel_id and path_id parameter to favorites.txt . For example, channel_id 0 can be used for L band and channel_id 1 for X band. Similarly path_id selects LNAL,LNAH,LNAW in LimeSDR.
