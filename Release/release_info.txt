@@ -7,6 +7,7 @@ VERSION 1v458
 - Files recorded are stored in all_recorded_files.txt. 
 - Files to be automatically processed are kept in pending_files.txt with all data needed. 
 - Files done are stored in processed_files.txt
+- Added Box where SatDump decoder output is shown. The same messages are also stored in SatDumpMessages.txt.
 - Added option to turn antenna to AOS position two minutes before pass start.
 - Bug fixes 
 
