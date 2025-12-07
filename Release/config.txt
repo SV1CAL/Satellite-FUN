@@ -3,7 +3,7 @@ MyLong 23.6
 MyHeight 40
 minAZ 0
 maxAZ 360
-minEL 10
+minEL 15
 maxEL 100
 AZoffset 0.00
 ELoffset 0.00
@@ -42,7 +42,7 @@ AllowLimeReset 0
 FIXED_LO_HZ 9600
 LO_TYPE NO_CONVERTER
 LimeDcSwith_Polarization_Comport COM3
-FillPassListAtStartup 0
+FillPassListAtStartup 1
 AllowLimePowerCycling 0
 SATDUMP_RESULTS_PATH C:\Results
 AutoLaunch_SATDUMP_Decoder 1
