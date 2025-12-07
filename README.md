@@ -4,6 +4,8 @@
 TO DO:
 - Simplify layout, hide settings behind a tab etc
 - Present passlist , satellites, settings in tabulated format and maybe allow direct edits
+VERSION 1v459
+- Fixed a bug
 
 VERSION 1v458
 - Improved automatic post-processing recorded files. 
