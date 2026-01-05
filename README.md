@@ -4,8 +4,8 @@
 TO DO:
 - Simplify layout, hide settings behind a tab etc
 
-VERSION 1v463
-- Fixing bugs etc
+VERSION 1v464
+- Fixed overtravel bug
 
 VERSION 1v458
 - Improved automatic post-processing recorded files. 
