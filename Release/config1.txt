@@ -62,7 +62,7 @@ TLE_TIME_OFFSET_SECS 3
 ParkBetweenPasses 1
 BladeRFGain 12
 RtlsdrGain 14
-SdrplayGain 15
+SdrplayGain 8
 Ant_offset1_az 0.00
 Ant_offset1_el 0.00
 Ant_offset2_az 0.00
@@ -74,3 +74,5 @@ Ant_offset4_el 0.00
 Ant_offset5_az 0.00
 Ant_offset5_el 0.00
 WakeUpRotator 1
+SdrplayIFGain 33
+SATDUMP_BASEBAND_FORMAT cs8

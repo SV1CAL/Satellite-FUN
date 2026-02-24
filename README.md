@@ -4,6 +4,12 @@
 TO DO:
 - Simplify layout, hide settings behind a tab etc
 
+VERSION 1v466
+- Fixed bug where decoder was not correctly set in case there was only a single satellite in the passlist
+- Fixed bug where lna_gain and if_gain were not correctly programmed in the SDRPLAY case. Not lna_gain is defined in the config.txt file as SdrplayGain and if_gain is defined as SdrplayIFGain.
+In favorites.txt , this if_gain can also separately defined per satellite. For lna_gain the global setting in config.txt is used for all satellites that use SDRPLAY SDR.
+- Added SATDUMP_BASEBAND_FORMAT parameter to config.txt . By default this is set to cs8.
+
 VERSION 1v464
 - Fixed overtravel bug
 
