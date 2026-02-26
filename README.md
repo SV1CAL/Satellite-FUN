@@ -6,23 +6,24 @@ TO DO:
 
 VERSION 1v467
 
-Now Supporting SatDump v2.0
+- Now Supporting SatDump v2.0
 
-Added SATDUMP_ISVERSION2  parameter to config.txt
+  Added SATDUMP_ISVERSION2  parameter to config.txt
 
-If you use SatDump v2.0, you need to have the following in config.txt:
+- If you use SatDump v2.0, you need to have the following in config.txt:
 
-SATDUMP_ISVERSION2 1
+  SATDUMP_ISVERSION2 1
+
 
 
 
 VERSION 1v466
 
-To run version 1v466, just add the following lines to the end of your config.txt. No need to edit confit.txt from scratch.
+- To run version 1v466, just add the following lines to the end of your config.txt. No need to edit confit.txt from scratch.
 
-SdrplayIFGain 33
-
-SATDUMP_BASEBAND_FORMAT cs8
+  SdrplayIFGain 33
+  
+  SATDUMP_BASEBAND_FORMAT cs8
 
 
 
