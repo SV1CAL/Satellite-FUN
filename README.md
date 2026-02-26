@@ -9,7 +9,9 @@ VERSION 1v466
 To run version 1v466, just add the following lines to the end of your config.txt. No need to edit confit.txt from scratch.
 
 SdrplayIFGain 33
+
 SATDUMP_BASEBAND_FORMAT cs8
+
 
 
 
