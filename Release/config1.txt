@@ -76,3 +76,4 @@ Ant_offset5_el 0.00
 WakeUpRotator 1
 SdrplayIFGain 33
 SATDUMP_BASEBAND_FORMAT cs8
+SATDUMP_ISVERSION2 0
