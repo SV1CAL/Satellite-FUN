@@ -7,10 +7,13 @@ TO DO:
 VERSION 1v467
 
 Now Supporting SatDump v2.0
+
 Added SATDUMP_ISVERSION2  parameter to config.txt
+
 If you use SatDump v2.0, you need to have the following in config.txt:
 
 SATDUMP_ISVERSION2 1
+
 
 
 VERSION 1v466
