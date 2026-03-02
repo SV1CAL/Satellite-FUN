@@ -3,6 +3,7 @@
 
 TO DO:
 - Simplify layout, hide settings behind a tab etc
+
 VERSION 1v468
 
 - Auto-decode bug fix when SatDump v2.0 is used
