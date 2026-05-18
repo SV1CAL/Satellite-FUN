@@ -4,6 +4,8 @@
 TO DO:
 - Simplify layout, hide settings behind a tab etc
 
+18/5/2026 --> Download keps in CSV format (see update_keps.ps1), convert to TLE internally. Fake NORAD number in new TLE file when > 69999.  Minimum download interval 2 hours.
+
 17/5/2026 --> Updated file update_keps.ps1 
 
 VERSION 1v468
