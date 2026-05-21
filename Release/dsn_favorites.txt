@@ -65,7 +65,7 @@ TESS,-95,2272,6,none,1300.0,RHCP,FIXED,1000,High_Side,none,1,0,1,0,3,default_ant
 Juno,-61,8404.135802,6,none,1300.0,RHCP,KUHNE_MKU,6800,High_Side,none,1,0,1,0,3,default_ant_offset,default_gain,0
 ARTEMIS-2,-1024,2216.5,6,LIME_HDSDR_REC,2216.5,RHCP,NO_CONVERTER,2216.5,High_Side,none,1,0,1,0,3,default_ant_offset,default_gain,0
 KPLO(Danuri),-155,2260.8,1,none,2260.8,RHCP,NO_CONVERTER,2260.8,High_Side,none,1,0,1,0,3,default_ant_offset,default_gain,1
-ELEKTRO-L 2,active,1300,10,AIRSPY_SATDUMP_REC,1300,LHCP,NO_CONVERTER,1300,High_Side,noaa_hrpt,1,0,1,0,3,default_ant_offset,default_gain,1
+ELEKTRO-L 2,active,7500,25,BLADERF_SATDUMP_REC,1300,LHCP,FIXED,6800,High_Side,noaa_hrpt,1,0,1,0,3,default_ant_offset,default_gain,1
 
 
 
