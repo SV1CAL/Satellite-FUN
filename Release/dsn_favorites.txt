@@ -1,10 +1,10 @@
 Comma separated settings per object.
-Each satellites needs 19 comma-separated settings.
+Each satellite / DSN object needs 19 comma-separated settings.
 #########################################################################################
 Below is each item explained:
-1. Horizons ID
+1. DSN Object name (not critical, can be anything) OR Satellite Name . In this case it must be exactly as in TLE
 
-2. Folder under /Keps where TLEs for the satellite above are stored [active|amateur|geo|noaa|satnogs|visual|weather]
+2. DSN ID number usually negative OR Folder under /Keps where TLEs for the satellite above are stored [active|amateur|geo|noaa|satnogs|visual|weather]
 
 3. SAT_freq, Satellite Downlink Frequency in MHz (not including Doppler shift)
 
@@ -64,6 +64,9 @@ SOHO,-21,2245,6,none,1300.0,RHCP,FIXED,1000,High_Side,none,1,0,1,0,3,default_ant
 TESS,-95,2272,6,none,1300.0,RHCP,FIXED,1000,High_Side,none,1,0,1,0,3,default_ant_offset,default_gain,0
 Juno,-61,8404.135802,6,none,1300.0,RHCP,KUHNE_MKU,6800,High_Side,none,1,0,1,0,3,default_ant_offset,default_gain,0
 ARTEMIS-2,-1024,2216.5,6,LIME_HDSDR_REC,2216.5,RHCP,NO_CONVERTER,2216.5,High_Side,none,1,0,1,0,3,default_ant_offset,default_gain,0
-KPLO(Danuri),-155,2260.8,1,LIME_HDSDR_REC,2260.8,RHCP,NO_CONVERTER,2260.8,High_Side,none,1,0,1,0,3,default_ant_offset,default_gain,1
+KPLO(Danuri),-155,2260.8,1,none,2260.8,RHCP,NO_CONVERTER,2260.8,High_Side,none,1,0,1,0,3,default_ant_offset,default_gain,1
+ELEKTRO-L 2,active,1300,10,AIRSPY_SATDUMP_REC,1300,LHCP,NO_CONVERTER,1300,High_Side,noaa_hrpt,1,0,1,0,3,default_ant_offset,default_gain,1
+
+
 
 
