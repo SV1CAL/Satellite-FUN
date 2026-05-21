@@ -6,9 +6,10 @@ TO DO:
 
 VERSION 1v470
 
-- Antenna offsets are now active for on the fly changes in non-tracking mode e.g when pointing at a GEO satellit by pressing the button HIT TO GO to ...
-- AZ_sat+az_offset  , EL_sat_el_offset --> Must be < AZ/EL limits . Up until now , large offsets would move dish beyond limits. Now offsets are taken into account.
-- Drifting GEOs can now be automatically tracked adding them to the dsn_favorites.txt list. TLEs are passed to Horizons which returns AZ/EL in 1 min intervals.
+- Antenna offsets are now active for on-the-fly changes in non-tracking mode as well e.g when pointing at a GEO satellite by pressing the button HIT TO GO to ...
+- AZ_sat+az_offset  , EL_sat+el_offset --> Must be < AZ/EL limits . Up until now , large offsets would move dish beyond limits. Now offsets are taken into account.
+- Drifting GEOs can now be automatically tracked adding them to the dsn_favorites.txt list. Line format is the same as in favorites.txt. Satellite Name is looked up in TLE folder specified 
+and corresponding TLEs are passed to Horizons which returns AZ/EL in 1 min intervals.
 
 
 VERSION 1v469
