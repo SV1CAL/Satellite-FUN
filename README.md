@@ -4,6 +4,13 @@
 TO DO:
 - Simplify layout, hide settings behind a tab etc
 
+VERSION 1v470
+
+- Antenna offsets are now active for on the fly changes in non-tracking mode e.g when pointing at a GEO satellit by pressing the button HIT TO GO to ...
+- AZ_sat+az_offset  , EL_sat_el_offset --> Must be < AZ/EL limits . Up until now , large offsets would move dish beyond limits. Now offsets are taken into account.
+- Drifting GEOs can now be automatically tracked adding them to the dsn_favorites.txt list. TLEs are passed to Horizons which returns AZ/EL in 1 min intervals.
+
+
 VERSION 1v469
 
 - Download keps in CSV format (see update_keps.ps1), convert to TLE internally. Fake NORAD number in new TLE file when > 69999.  Minimum download interval 2 hours.
