@@ -4,6 +4,10 @@
 TO DO:
 - Simplify layout, hide settings behind a tab etc
 
+VERSION 1v471
+
+- Added GS232B_2decimal
+
 VERSION 1v470
 
 - Antenna offsets are now active for on-the-fly changes in non-tracking mode as well e.g when pointing at a GEO satellite by pressing the button HIT TO GO to ...

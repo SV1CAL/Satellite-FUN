@@ -1,12 +1,12 @@
-Invoke-WebRequest 'https://celestrak.org/NORAD/elements/gp.php?GROUP=weather&FORMAT=CSV' -OutFile kepler\weather\weather.csv;
-Start-Sleep -Milliseconds 500;
-Invoke-WebRequest 'https://celestrak.org/NORAD/elements/gp.php?GROUP=active&FORMAT=CSV' -OutFile kepler\active\active.csv;
+Invoke-WebRequest 'https://celestrak.org/NORAD/elements/gp.php?GROUP=visual&FORMAT=CSV' -OutFile kepler\visual\visual.csv;
 Start-Sleep -Milliseconds 500;
 Invoke-WebRequest 'https://celestrak.org/NORAD/elements/gp.php?GROUP=satnogs&FORMAT=CSV' -OutFile kepler\satnogs\satnogs.csv;
-Start-Sleep -Milliseconds 500;
-Invoke-WebRequest 'https://celestrak.org/NORAD/elements/gp.php?GROUP=visual&FORMAT=CSV' -OutFile kepler\visual\visual.csv;
 Start-Sleep -Milliseconds 500;
 Invoke-WebRequest 'https://celestrak.org/NORAD/elements/gp.php?GROUP=geo&FORMAT=CSV' -OutFile kepler\geo\geo.csv;
 Start-Sleep -Milliseconds 500;
 Invoke-WebRequest 'https://celestrak.org/NORAD/elements/gp.php?GROUP=amateur&FORMAT=CSV' -OutFile kepler\amateur\amateur.csv;
+Start-Sleep -Milliseconds 500;
+Invoke-WebRequest 'https://celestrak.org/NORAD/elements/gp.php?GROUP=weather&FORMAT=CSV' -OutFile kepler\weather\weather.csv;
+Start-Sleep -Milliseconds 500;
+Invoke-WebRequest 'https://celestrak.org/NORAD/elements/gp.php?GROUP=active&FORMAT=CSV' -OutFile kepler\active\active.csv;
 Start-Sleep -Milliseconds 500;
