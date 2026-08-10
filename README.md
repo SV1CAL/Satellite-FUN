@@ -4,6 +4,12 @@
 TO DO:
 - Simplify layout, hide settings behind a tab etc
 
+VERSION 1v473
+
+- Added GS232B_2decimal_NET , to send commands to controller over ethernet. In config.txt next to AntControllerComport type e.g 127.0.0.1:4000
+- Date of keps is now printed in the message box 
+
+
 VERSION 1v471
 
 - Added GS232B_2decimal
